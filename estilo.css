@@ -1,0 +1,72 @@
+/* Estilo general del cuerpo de la página */
+body {
+  padding: 20px; /* Espacio interno en todos los lados */
+  margin: 0; /* Elimina márgenes externos por defecto */
+  background: #e6e6fa; /* Color de fondo suave */
+  font-family: Arial, sans-serif; /* Fuente general */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Comienza desde arriba */
+  min-height: 100vh; /* Al menos alto de pantalla */
+  box-sizing: border-box; /* Incluye padding en el tamaño total */
+}
+
+/* Título principal */
+h1 {
+  color: #333;
+  font-size: 28px;
+  margin: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Párrafos descriptivos */
+p {
+  text-align: justify; /* Justifica el texto para mejor lectura */
+  font-size: 18px;
+  margin: 10px 0;
+  color: #444;
+  max-width: 600px; /* Limita el ancho para que no ocupe toda la pantalla */
+}
+
+/* Autor o nota final */
+h4 {
+  margin-top: 20px;
+  font-style: italic;
+  color: #666;
+  text-align: center;
+  width: 100%;
+}
+
+/* Etiqueta y selector de técnicas */
+label, select {
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+/* Contenedor del círculo */
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 20px 0;
+}
+
+/* Círculo animado de respiración */
+.circle {
+  width: 100px;
+  height: 100px;
+  background: #ffffb3; /* Puedes cambiar este color si quieres */
+  border-radius: 50%; /* Forma circular */
+  margin: auto;
+  transition: all 4s ease; /* Animación suave de 4 segundos */
+}
+
+/* Texto dentro del contenedor del círculo */
+#text {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #444;
+}
