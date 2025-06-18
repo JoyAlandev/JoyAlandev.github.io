@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ejercicios de Respiración</title>
-  <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8"> <!-- Configuración de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para que se vea bien en celulares -->
+  <title>Ejercicios de Respiración</title> <!-- Título de la página -->
+  <link rel="stylesheet" href="estilo.css"> <!-- Enlazo el CSS -->
 </head>
 <body>
-  <h1>Ejercicios  de  Respiración</h1>
+  <h1>Ejercicios de Respiración</h1> <!-- Título principal -->
 
   <p class="intro">
+    <!-- Párrafo de introducción sobre la importancia de la respiración -->
     Las técnicas de respiración son herramientas poderosas que pueden ayudarte a reducir el estrés, la ansiedad y promover la relajación en tu vida diaria. La respiración profunda y consciente puede tener efectos beneficiosos en tu cuerpo y mente, como disminuir la presión arterial, mejorar la claridad mental y reducir la tensión muscular.
     <br><br>
     Es recomendable practicar técnicas de respiración cuando te sientas estresado, ansioso o abrumado. Puedes probar estas técnicas en momentos de tensión, antes de una situación estresante (como una presentación importante) o simplemente como parte de tu rutina diaria para mantenerte equilibrado.
   </p>
 
-  <h4>Por Joy Trejos</h4>
-   <h4>Laboratorio #4</h4>  
+  <h4>Por Joy Trejos</h4> <!-- Autor -->
+  <h4>Laboratorio #4</h4>  <!-- Información adicional -->
 
+  <!-- Selector para elegir técnica de respiración -->
   <label for="technique">Elige técnica de respiración:</label>
   <select id="technique">
-    <option value="normal">Normal (Inhala 4s / Exhala 4s)</option>
-    <option value="box">Caja (4s Inhala / 4s Pausa / 4s Exhala / 4s Pausa)</option>
-    <option value="relax">Relajante (Inhala 4s / Exhala 6s)</option>
-    <option value="deep">Profunda (Inhala 6s / Pausa 2s / Exhala 6s)</option>
+    <option value="normal">Respiración 4, 7, 8 Para relajar Y dormir</option>
+    <option value="box">Respiración Caja, libera estrés y ansiedad</option>
+    <option value="relax">Relajante</option>
+    <option value="deep">Profunda para mejorar la concentración</option>
   </select>
 
+  <!-- Contenedor con la imagen y texto de respiración -->
   <div class="container">
-    <div class="circle"></div>
-    <p id="text">Tómate tu tiempo y prepárate para empezar</p>
+    <img src="img/pulmon.png" alt="Pulmón" class="circle"> <!-- Imagen que se agranda y reduce -->
+    <p id="text">Tómate tu tiempo y prepárate para empezar</p> <!-- Texto que cambia según la fase de respiración -->
   </div>
 
-  <script src="script.js"></script>
+  <!-- Audio de fondo con controles visibles y repetición activada -->
+  <audio id="bg-music" controls loop>
+    <source src="audio/musica.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+
+  <script src="script.js"></script> <!-- Enlace al archivo JS -->
 </body>
 </html>
