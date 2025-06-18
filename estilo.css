@@ -2,7 +2,7 @@
 body {
   padding: 20px; /* Espacio interno en todos los lados */
   margin: 0; /* Elimina márgenes externos por defecto */
-  background: #e6e6fa; /* Color de fondo suave */
+  background: #e6e6; /* Color de fondo suave */
   font-family: Arial, sans-serif; /* Fuente general */
   display: flex;
   flex-direction: column;
